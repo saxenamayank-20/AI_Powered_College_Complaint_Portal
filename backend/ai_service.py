@@ -3,12 +3,11 @@ import os
 from groq import Groq
 
 # ---- ADD YOUR FREE GROQ API KEY HERE ----
-# Get it free from: https://console.groq.com
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "Api key HERE")
 # -----------------------------------------
 
 
-def analyze_complaint(complaint_text: str) -> dict:ss
+def analyze_complaint(complaint_text: str) -> dict:
     """
     Send complaint to Groq AI.
     Returns category, priority, and summary.
