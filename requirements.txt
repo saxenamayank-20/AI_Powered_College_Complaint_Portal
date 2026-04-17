@@ -1,6 +1,6 @@
-fastapi==0.110.0
+fastapi>=0.100.0
+pydantic>=2.0.0
 uvicorn[standard]==0.23.2
-pydantic==1.10.14
 streamlit==1.26.1
 requests==2.31.0
 bcrypt==4.0.1
