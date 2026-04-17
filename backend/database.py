@@ -6,7 +6,7 @@ from mysql.connector import Error
 DB_CONFIG = {
     "host": os.getenv("DB_HOST", "localhost"),
     "user": os.getenv("DB_USER", "root"),
-    "password": os.getenv("DB_PASSWORD", "Your SQL password here"),
+    "password": os.getenv("DB_PASSWORD", "Password"),
     "database": os.getenv("DB_NAME", "college_complaint_portal")
 }
 # -----------------------------------------------
